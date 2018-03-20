@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72754A00206028C9004E3348 /* DBConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727549FF206028C9004E3348 /* DBConnector.swift */; };
 		72FE5971206006CB004346DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FE5970206006CB004346DC /* AppDelegate.swift */; };
 		72FE5973206006CB004346DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FE5972206006CB004346DC /* ViewController.swift */; };
 		72FE5976206006CB004346DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72FE5974206006CB004346DC /* Main.storyboard */; };
@@ -14,6 +15,18 @@
 		72FE597B206006CB004346DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72FE5979206006CB004346DC /* LaunchScreen.storyboard */; };
 		72FE5986206006CB004346DC /* TaskerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FE5985206006CB004346DC /* TaskerTests.swift */; };
 		72FE5991206006CB004346DC /* TaskerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FE5990206006CB004346DC /* TaskerUITests.swift */; };
+		72FE59A320600E5F004346DC /* TODOTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FE59A220600E5F004346DC /* TODOTableViewController.swift */; };
+		72FE59A520600EF6004346DC /* DONETableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FE59A420600EF6004346DC /* DONETableViewController.swift */; };
+		72FE59A7206010B3004346DC /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FE59A6206010B3004346DC /* Task.swift */; };
+		72FE59A9206021DF004346DC /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FE59A8206021DF004346DC /* TaskManager.swift */; };
+		72FE59AB20602252004346DC /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FE59AA20602252004346DC /* AddTaskViewController.swift */; };
+		72FE59AD2060261E004346DC /* SQLiteDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FE59AC2060261E004346DC /* SQLiteDAO.swift */; };
+		72FE59BB20602689004346DC /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 72FE59B020602689004346DC /* FMDatabaseQueue.m */; };
+		72FE59BC20602689004346DC /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 72FE59B320602689004346DC /* FMDatabaseAdditions.m */; };
+		72FE59BD20602689004346DC /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 72FE59B420602689004346DC /* FMDatabase.m */; };
+		72FE59BE20602689004346DC /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 72FE59B820602689004346DC /* FMDatabasePool.m */; };
+		72FE59BF20602689004346DC /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 72FE59B920602689004346DC /* FMResultSet.m */; };
+		72FE59C020602689004346DC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 72FE59BA20602689004346DC /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		727549FF206028C9004E3348 /* DBConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBConnector.swift; sourceTree = "<group>"; };
 		72FE596D206006CB004346DC /* Tasker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tasker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72FE5970206006CB004346DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72FE5972206006CB004346DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +61,24 @@
 		72FE598C206006CB004346DC /* TaskerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72FE5990206006CB004346DC /* TaskerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskerUITests.swift; sourceTree = "<group>"; };
 		72FE5992206006CB004346DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72FE59A220600E5F004346DC /* TODOTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOTableViewController.swift; sourceTree = "<group>"; };
+		72FE59A420600EF6004346DC /* DONETableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DONETableViewController.swift; sourceTree = "<group>"; };
+		72FE59A6206010B3004346DC /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		72FE59A8206021DF004346DC /* TaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
+		72FE59AA20602252004346DC /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		72FE59AC2060261E004346DC /* SQLiteDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteDAO.swift; sourceTree = "<group>"; };
+		72FE59AF20602689004346DC /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		72FE59B020602689004346DC /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		72FE59B120602689004346DC /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		72FE59B220602689004346DC /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		72FE59B320602689004346DC /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		72FE59B420602689004346DC /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		72FE59B520602689004346DC /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		72FE59B620602689004346DC /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		72FE59B720602689004346DC /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		72FE59B820602689004346DC /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		72FE59B920602689004346DC /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		72FE59BA20602689004346DC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +129,20 @@
 		72FE596F206006CB004346DC /* Tasker */ = {
 			isa = PBXGroup;
 			children = (
+				72FE59AE20602689004346DC /* fmdb */,
 				72FE5970206006CB004346DC /* AppDelegate.swift */,
 				72FE5972206006CB004346DC /* ViewController.swift */,
 				72FE5974206006CB004346DC /* Main.storyboard */,
 				72FE5977206006CB004346DC /* Assets.xcassets */,
 				72FE5979206006CB004346DC /* LaunchScreen.storyboard */,
 				72FE597C206006CB004346DC /* Info.plist */,
+				72FE59A220600E5F004346DC /* TODOTableViewController.swift */,
+				72FE59A420600EF6004346DC /* DONETableViewController.swift */,
+				72FE59A6206010B3004346DC /* Task.swift */,
+				72FE59A8206021DF004346DC /* TaskManager.swift */,
+				72FE59AA20602252004346DC /* AddTaskViewController.swift */,
+				72FE59AC2060261E004346DC /* SQLiteDAO.swift */,
+				727549FF206028C9004E3348 /* DBConnector.swift */,
 			);
 			path = Tasker;
 			sourceTree = "<group>";
@@ -123,6 +163,25 @@
 				72FE5992206006CB004346DC /* Info.plist */,
 			);
 			path = TaskerUITests;
+			sourceTree = "<group>";
+		};
+		72FE59AE20602689004346DC /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				72FE59AF20602689004346DC /* FMDatabase.h */,
+				72FE59B020602689004346DC /* FMDatabaseQueue.m */,
+				72FE59B120602689004346DC /* FMResultSet.h */,
+				72FE59B220602689004346DC /* FMDatabasePool.h */,
+				72FE59B320602689004346DC /* FMDatabaseAdditions.m */,
+				72FE59B420602689004346DC /* FMDatabase.m */,
+				72FE59B520602689004346DC /* FMDatabaseQueue.h */,
+				72FE59B620602689004346DC /* FMDB.h */,
+				72FE59B720602689004346DC /* FMDatabaseAdditions.h */,
+				72FE59B820602689004346DC /* FMDatabasePool.m */,
+				72FE59B920602689004346DC /* FMResultSet.m */,
+				72FE59BA20602689004346DC /* Info.plist */,
+			);
+			path = fmdb;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +291,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72FE59C020602689004346DC /* Info.plist in Resources */,
 				72FE597B206006CB004346DC /* LaunchScreen.storyboard in Resources */,
 				72FE5978206006CB004346DC /* Assets.xcassets in Resources */,
 				72FE5976206006CB004346DC /* Main.storyboard in Resources */,
@@ -259,8 +319,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72FE59AD2060261E004346DC /* SQLiteDAO.swift in Sources */,
+				72FE59BE20602689004346DC /* FMDatabasePool.m in Sources */,
+				72FE59A9206021DF004346DC /* TaskManager.swift in Sources */,
 				72FE5973206006CB004346DC /* ViewController.swift in Sources */,
+				72FE59A520600EF6004346DC /* DONETableViewController.swift in Sources */,
+				72754A00206028C9004E3348 /* DBConnector.swift in Sources */,
+				72FE59A7206010B3004346DC /* Task.swift in Sources */,
+				72FE59BF20602689004346DC /* FMResultSet.m in Sources */,
 				72FE5971206006CB004346DC /* AppDelegate.swift in Sources */,
+				72FE59A320600E5F004346DC /* TODOTableViewController.swift in Sources */,
+				72FE59AB20602252004346DC /* AddTaskViewController.swift in Sources */,
+				72FE59BB20602689004346DC /* FMDatabaseQueue.m in Sources */,
+				72FE59BD20602689004346DC /* FMDatabase.m in Sources */,
+				72FE59BC20602689004346DC /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
