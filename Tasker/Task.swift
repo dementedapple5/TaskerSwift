@@ -9,6 +9,7 @@
 import Foundation
 
 class Task {
+    var id: Int?
     var title: String
     var body: String
     var creationDate: Date
@@ -30,6 +31,18 @@ class Task {
         self.completed = false
     }
     
+    init(_ id: Int,_ title: String,_ body: String,_ expirationDate: Date,_ difficulty: Int,_ priority: Int,_ creationDate: Date,_ completed: Bool,_ completitionDate: Date?) {
+        self.id = id
+        self.title = title
+        self.body = body
+        self.expirationDate = expirationDate
+        self.difficulty = difficulty
+        self.priority = priority
+        self.creationDate = creationDate
+        self.completed = completed
+        self.completitionDate = completitionDate
+    }
+    
     func markAsDone() {
         self.completed = !self.completed
         if (self.completed) {
@@ -38,6 +51,14 @@ class Task {
             self.completitionDate = nil
         }
     }
+    
+    func reformatDate(date: Date) -> String {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "dd/MM/yyyy-hh:mm"
+        return formatter.string(from: date)
+    }
+    
+    
     
     
     
